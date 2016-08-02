@@ -1,0 +1,42 @@
+{% block content %}
+<div align=justify>
+	<p><b><u>Tax implications:</b></u> Tax implications arising from the acquisition of a real estate property in Kefalonia.</p>
+	<div class="graph">{% include 'blog/gchartA.html' %}<br>
+	<p><b><u>Acquisition:</b></u></p>
+			<ul>
+				<li>RETT = Real Estate Transfer Tax = 3% x 200,000 = 6,000 euros<br>Municipality Duty = 3% x RETT = 180 euros<br>=> RETT + Municipality Duty = 6,180 euros
+				<li>Notary Fees = 1.23% x 200,000 = 2,460 euros
+				<li>Greek Land Registry Fees = 0.52% x 200,000 = 1,040 euros<br>or Greek Cadastre = 0.63% x 200,000 = 1,260 euros
+			</ul>
+</div><br>
+	<p><b><u>Note:</b></u> Foreign individuals must have a Greek Tax Registration Number and file a Real Estate Property Data Declaration (E9) within a month after the purchase of the house.</p>
+	
+	<p><b><u>Holding:</b></u></p>
+			<ul>
+				<li>ENFIA = Uniform Tax on the Ownership of Real Estate – depends on the size of the building, its location and its use = 4.5 euros/m2 x 100m2 = 450 euros annually
+					<br>If the individual holds the house for a time period of 5 years<div align=center>=> ENFIA = + 450euros/year x 5years = 2,250 euros</div>
+				<li>Municipality Duty = An extra fee collected through the electricity bill =<br>0.25% x 200,000 = 500 euros annually<div align=center>=> Municipality Duty = 500euros/year x 5 years = 2,500 euros</div>
+				<li>Duty for cleaning and lighting services offered by the municipality and an extra tax on electrified spaces determined by the municipal council
+				<li>Maintenance & Refurbishment Works: All technical works and services are subject to a VAT of 23%. Assuming that during the 5 year life cycle of holding the building the maintenance 
+					works can be up to 50,000 euros, the VAT is equal to 23% x 50,000 = 11,500 euros
+				<li>Leasing of Property: Any income derived from leasing a property in Greece is assumed to be a Greek Source Income and it is taxable. The tax scale is
+					<br>11% for income ≤ 12,000 euros<br>33% for income > 12,000 euros<br>Assuming that we have an annual income of 10,000 euros the tax is 11% x 10,000 = 1,100 euros annually
+					<div align=center>=> Leasing Tax = 1,100euros/year x 5years = 5,500 euros</div>
+			</ul>
+<p><b><u>Selling or Transferring the House:</b></u></p>
+<p><b><u>Selling:</b></u></p>
+<p>If the house is going to be sold at a price grater than the price the individual bought the house, then the capital gain is subject to a tax of 15%. The price of purchasing the house is adjusted according to the inflation rate.
+	For example after 5 years of buying the house, with an inflation rate of 3%, the objective price of the same house is 
+	200,000 x (1+0.03)5 ~ 230,000.
+	<br>However, the tax of 15% is reduced by a coefficient that depends on the years of ownership. In our case, after 5 years of ownership, the tax is reduced to 95% giving a final capital gain tax of 14.25%.
+	<br>If the house is going to be sold at a price of 300,000 euros
+	<div align=center>=> Selling Tax = 14.25% x (300,000 – 230,000) ~ 9,700 euros</div>
+</p>
+<p><b><u>Inheritance:</b></u></p>
+<p>The inheritance tax scales for transferring a real estate property to 1st category relatives (children, wife, grandchildren and parents) are:</p>
+	<div align=center>0% for objective price ≤ 150,000 euros<br>1% for 150,000 < objective price ≤ 300,000 euros<br>5% for 300,000 < objective price ≤ 600,000 euros
+	<br>10 % for 600,000 < objective price<br><br></div>
+<p>In our case where the objective price of the building is 230,000 we have:<div align=center>Inheritance Tax = 1% x 230,000 = 2,300 euros</div>
+
+</div>
+{% endblock %}
