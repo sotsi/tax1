@@ -1,6 +1,6 @@
 h1 a {
 color: #DF01D7;
-font-family: 'Batang';
+font-family: 'Meiryo';
 }
 
 body {
@@ -21,7 +21,7 @@ padding-left: 15px;
 	margin-left: 40px;
 }
 h1, h2, h3, h4, h5{
-	font-family: 'Batang', cursive;
+	font-family: 'Meiryo', cursive;
 }
 .date {
 	color: #ff9900;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5{
 .graph {
 	color: black;
 	text-align: justify;
-	font-family: 'Batang', cursive;
+	font-family: 'Meiryo', cursive;
 	font-size: 9.5pt;
 }
 
@@ -103,19 +103,19 @@ pre {
 
 p, li{
 	text-align: justify;
-	font-family: 'Batang', cursive;
-	font-size: 11.5pt;
+	font-family: 'Meiryo', cursive;
+	font-size: 13pt;
 }
 
 th{
 	text-align: center;
-	font-family: 'Batang', cursive;
+	font-family: 'Meiryo', cursive;
 	color: #668cff;
 	font-size: 12.5pt;
 }
 td{
 	text-align: center;
-	font-family: 'Batang', cursive;
+	font-family: 'Meiryo', cursive;
 	font-size: 10.5pt;
 }
 
